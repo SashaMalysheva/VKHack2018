@@ -4,6 +4,14 @@ Find nearest face from dataset
 
 You can download dataset here -- https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
+## Example
+
+![Photo](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/photo.jpg)
+![Nearest painting](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/ans_photo.jpg)
+
+![Photo](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/photo1.jpg)
+![Engraving painting](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/ans_photo1.jpg)
+
 ## Setup
 
 ```
