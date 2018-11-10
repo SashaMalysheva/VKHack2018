@@ -9,7 +9,6 @@ You can download dataset here -- https://www.kaggle.com/thedownhill/art-images-d
 Photo                      |  Nearest painting//engraving
 :-------------------------:|:-------------------------:
 ![](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/photo.jpg)  |  ![](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/ans_photo.jpg)
-:-------------------------:|:-------------------------:
 ![](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/photo1.jpg) | ![](https://github.com/SashaMalysheva/VKHack2018/blob/master/img/ans1_photo.jpg)
 
 
