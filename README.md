@@ -21,18 +21,36 @@ python setup.py develop
 
 ### To train on new dataset:
 
-```
-convert_dataset_to_latent_vector.py -d name_of_dataset -f path_to_dataset -o answer_csv_name 
-```
-
-name_of_dataset == 'sculpture', 'painting', 'iconography', 'engraving', 'drawings'
-
-It will convert imgs from datasets to latent space and create csv with this vectors
-
-### To test on your own picture
+To initialize training, simply go ahead
 
 ```
-find_nearest_img.py -d name_of_dataset -i path_to_photo -o path_to_output_photo 
+./main.py --train
+ [--dataset {mnist,cifar10,cifar100}]
+ [--kernel-num KERNEL_NUM] [--z-size Z_SIZE]
+ [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+ [--sample-size SAMPLE_SIZE] [--lr LR]
+ [--weight-decay WEIGHT_DECAY]
+ [--loss-log-interval LOSS_LOG_INTERVAL]
+ [--image-log-interval IMAGE_LOG_INTERVAL]
+ [--resume] [--checkpoint-dir CHECKPOINT_DIR]
+ [--sample-dir SAMPLE_DIR] [--no-gpus]
 ```
 
-It will save nearest photo to path_to_output_photo or show it
+dataset == 'mnist', 'cifar10', 'cifar100'
+
+It will convert imgs from срщщыут dataset 
+
+### To test 
+
+```
+./main.py --еуые
+ [--dataset {mnist,cifar10,cifar100}]
+ [--kernel-num KERNEL_NUM] [--z-size Z_SIZE]
+ [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+ [--sample-size SAMPLE_SIZE] [--lr LR]
+ [--weight-decay WEIGHT_DECAY]
+ [--loss-log-interval LOSS_LOG_INTERVAL]
+ [--image-log-interval IMAGE_LOG_INTERVAL]
+ [--resume] [--checkpoint-dir CHECKPOINT_DIR]
+ [--sample-dir SAMPLE_DIR] [--no-gpus]
+```
