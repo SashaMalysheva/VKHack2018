@@ -1,6 +1,5 @@
-# VKHack2018
-
-Find nearest face from dataset
+# Pytorch-VAE
+This is an implementation of the VAE (Variational Autoencoder) for Cifar10
 
 You can download dataset here -- https://www.kaggle.com/thedownhill/art-images-drawings-painting-sculpture-engraving
 
